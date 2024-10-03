@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ss">
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">160dp</item>
+        <item name="android:soundEffectsEnabled">false</item>
+    </style>
+</resources>

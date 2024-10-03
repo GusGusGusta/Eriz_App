@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    android:gravity="center"
+    android:padding="16dp"
+    tools:context=".Principal">
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:gravity="center"
+     android:orientation="vertical"
+     tools:ignore="UselessParent">
+
+  <!-- ImageView -->
+  <ImageView
+      style="@style/ss"
+      android:layout_width="150dp"
+      android:layout_height="150dp"
+      android:background="@drawable/rounded_shape"
+      android:clipToOutline="true"
+      android:scaleType="centerCrop"
+      android:src="@drawable/seccion"
+      tools:srcCompat="@drawable/seccion" />
+
+  <!-- Campo de Email -->
+  <EditText
+      android:id="@+id/email_input"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_margin="32dp"
+      android:background="@drawable/rounded_corner_2"
+      android:hint="Email"
+      android:inputType="textEmailAddress"
+      android:padding="18dp"
+      android:textColor="@android:color/holo_orange_dark"
+      android:textColorHint="@android:color/holo_orange_dark"
+      android:textSize="20sp" />
+
+  <!-- Campo de Contraseña -->
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_margin="32dp">
+
+   <EditText
+       android:id="@+id/password_input"
+       android:layout_width="match_parent"
+       android:layout_height="60dp"
+       android:background="@drawable/rounded_corner_2"
+       android:hint="Contraseña"
+       android:inputType="textPassword"
+       android:padding="18dp"
+       android:textColor="@android:color/holo_orange_dark"
+       android:textColorHint="@android:color/holo_orange_dark"
+       android:textSize="20sp" />
+
+   <ImageView
+       android:id="@+id/toggle_password_visibility"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentEnd="true"
+       android:layout_centerVertical="true"
+       android:contentDescription="Toggle password visibility"
+       android:padding="8dp"
+       android:src="@drawable/ic_eye_closed" />
+  </RelativeLayout>
+
+  <!-- Botón de Login -->
+  <Button
+      android:id="@+id/login_btn"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_margin="38dp"
+      android:backgroundTint="@color/white"
+      android:padding="18dp"
+      android:text="Ingresar"
+      android:textColor="?android:attr/colorActivatedHighlight"
+      android:textSize="20sp"
+      android:background="@drawable/rounded_corner_2" />
+
+  <!-- Espacio -->
+  <Space
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" />
+
+  <!-- TextView para Crear Cuenta -->
+  <TextView
+      android:id="@+id/textcrear"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="No tienes Cuenta? Crea Una Cuenta"
+      android:textColor="?attr/colorError"
+      android:textSize="20sp"
+      android:gravity="center" /> <!-- Añadido gravity para centrar el texto -->
+ </LinearLayout>
+</RelativeLayout>

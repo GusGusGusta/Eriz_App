@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    android:padding="16dp"
+    tools:context=".Formulario">
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="vertical">
+
+<!-- Título de Bienvenida -->
+<TextView
+    android:id="@+id/titu_name"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:fontFamily="serif"
+    android:text="Bienvenido, Nombre"
+    android:textColor="@color/black"
+    android:textSize="24sp"
+    android:textStyle="bold" />
+
+<!-- Espacio -->
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+<!-- Campo de Nombres -->
+<TextView
+    android:id="@+id/textView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fontFamily="serif"
+    android:text="Nombres"
+    android:textSize="20sp"
+    android:textStyle="bold|italic" />
+
+<EditText
+    android:id="@+id/edit_nombre"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/diffuse_background"
+    android:hint="Ingrese su nombre"
+    android:inputType="textPersonName"
+    android:padding="12dp"
+    android:textColor="@android:color/black"
+    android:textSize="18sp" />
+
+<!-- Espacio -->
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+<!-- Campo de Apellidos -->
+<TextView
+    android:id="@+id/textView2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fontFamily="serif"
+    android:text="Apellidos"
+    android:textSize="20sp"
+    android:textStyle="bold|italic" />
+
+<EditText
+    android:id="@+id/edit_apellido"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/diffuse_background"
+    android:hint="Ingrese sus apellidos"
+    android:inputType="textPersonName"
+    android:padding="12dp"
+    android:textColor="@android:color/black"
+    android:textSize="18sp" />
+
+<!-- Espacio -->
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+<!-- Campo de Comuna -->
+<TextView
+    android:id="@+id/textView3"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fontFamily="serif"
+    android:text="Comuna"
+    android:textSize="20sp"
+    android:textStyle="bold|italic" />
+
+<AutoCompleteTextView
+    android:id="@+id/edit_comuna"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/diffuse_background"
+   android:hint="Seleccione su comuna"
+   android:inputType="text"
+   android:padding="12dp"
+   android:textColor="@android:color/black"
+   android:textSize="18sp" />
+
+<!-- Espacio -->
+<Space
+    android:layout_width="match_parent"
+    android:layout_height="30dp" />
+
+<!-- Campo de Observación -->
+<TextView
+    android:id="@+id/textView4"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fontFamily="serif"
+    android:text="Contraseña"
+    android:textSize="20sp"
+    android:textStyle="bold|italic" />
+
+    <!-- Espacio -->
+
+    <!-- Botón de Enviar -->
+
+    <EditText
+        android:id="@+id/editTextApellido2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/diffuse_background"
+        android:hint="*******"
+        android:inputType="textPersonName"
+        android:padding="12dp"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="Repite Contraseña"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/editTextApellido3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/diffuse_background"
+        android:hint="*******"
+        android:inputType="textPersonName"
+        android:padding="12dp"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <Button
+    android:id="@+id/buttonEnviar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:backgroundTint="@android:color/holo_orange_light"
+    android:text="Editar Datos"
+    android:textColor="@android:color/white"
+    android:textSize="20sp"
+    android:padding="16dp" />
+
+</LinearLayout>
+    </ScrollView>

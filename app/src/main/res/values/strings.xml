@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">Eriz_App</string>
+
+    <string-array name="comunas_array">
+        <!-- Región Metropolitana -->
+        <item>Santiago</item>
+        <item>Providencia</item>
+        <item>Las Condes</item>
+        <item>Maipú</item>
+        <item>La Florida</item>
+        <item>Puente Alto</item>
+        <item>Vitacura</item>
+        <item>Ñuñoa</item>
+        <item>San Bernardo</item>
+        <item>Estación Central</item>
+        <item>Pedro Aguirre Cerda</item>
+        <item>San Miguel</item>
+        <item>Recoleta</item>
+        <item>Macul</item>
+        <item>Quilicura</item>
+        <item>El Bosque</item>
+        <item>La Cisterna</item>
+        <item>La Pintana</item>
+        <item>La Granja</item>
+        <item>Cerro Navia</item>
+        <item>Conchalí</item>
+        <item>Renca</item>
+        <item>Ñuñoa</item>
+        <item>Lo Prado</item>
+        <item>Lo Espejo</item>
+        <item>Peñalolén</item>
+        <item>Puente Alto</item>
+        <item>San Ramón</item>
+        <item>Huechuraba</item>
+        <item>Alhué</item>
+        <item>Buin</item>
+        <item>Cerrillos</item>
+        <item>Colina</item>
+        <item>Fresia</item>
+        <item>Hacienda La Florida</item>
+        <item>Isla de Maipo</item>
+        <item>La Calera</item>
+        <item>Lo Barnechea</item>
+        <item>San José de Maipo</item>
+        <item>San Pedro</item>
+        <item>Talagante</item>
+        <!-- otras regiones -->
+        <item>Arica</item>
+        <item>Parinacota</item>
+        <item>Iquique</item>
+        <item>Alto Hospicio</item>
+        <item>Antofagasta</item>
+        <item>Calama</item>
+        <item>Copiapó</item>
+        <item>Vallenar</item>
+        <item>La Serena</item>
+        <item>Ovalle</item>
+        <item>Valparaíso</item>
+        <item>Viña del Mar</item>
+        <item>Rancagua</item>
+        <item>San Fernando</item>
+        <item>Talca</item>
+        <item>Curicó</item>
+        <item>Chillán</item>
+        <item>Chillán Viejo</item>
+        <item>Concepción</item>
+        <item>Los Ángeles</item>
+        <item>Temuco</item>
+        <item>Villarrica</item>
+        <item>Valdivia</item>
+        <item>La Unión</item>
+        <item>Osorno</item>
+        <item>Puerto Montt</item>
+        <item>Coyhaique</item>
+        <item>Chile Chico</item>
+        <item>Punta Arenas</item>
+        <item>Puerto Natales</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    android:padding="16dp"
+    tools:context=".Menu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Título de Bienvenida -->
+        <TextView
+            android:id="@+id/titu_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:fontFamily="serif"
+            android:text="Bienvenido, Nombre"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <!-- Espacio -->
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+        <!-- Botón Modificar Cuenta -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/buttonmodi"
+                android:layout_width="295dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@android:color/holo_orange_light"
+                android:padding="16dp"
+                android:text="Modificar Cuenta"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:layout_gravity="center" />
+        </LinearLayout>
+
+        <!-- Espacio -->
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+        <!-- Botón Eliminar Cuenta -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/buttonelimi"
+                android:layout_width="295dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@android:color/holo_orange_light"
+                android:padding="16dp"
+                android:text="Eliminar Cuenta"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:layout_gravity="center" />
+        </LinearLayout>
+
+        <!-- Espacio -->
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+        <!-- Botón Formulario -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/buttonformu"
+                android:layout_width="295dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@android:color/holo_orange_light"
+                android:text="Formulario"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:padding="16dp"
+                android:layout_gravity="center" />
+        </LinearLayout>
+
+        <!-- Espacio -->
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="198dp" />
+
+        <!-- Botón Cerrar Sesión -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/buttonsalir"
+                android:layout_width="194dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@android:color/holo_red_dark"
+                android:padding="16dp"
+                android:text="Cerrar Sesión"
+                android:textColor="@android:color/white"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

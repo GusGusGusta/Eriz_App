@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "409769066879",
+    "project_id": "desarrollo-web-i",
+    "storage_bucket": "desarrollo-web-i.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:409769066879:android:22077b155b89de99469a4a",
+        "android_client_info": {
+          "package_name": "com.example.eriz_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqH1xAkmuaGG0p0_fe-T05xoXcYMPMQVI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
